@@ -4,9 +4,7 @@ import playsound
 import cv2
 import datetime
 
-"""background = cv2.imread("123.jpg")
-background = cv2.cvtColor(background, cv2.COLOR_BGR2GRAY)
-background = cv2.GaussianBlur(background, (21, 21), 0)"""
+
 
 video = cv2.VideoCapture(0)
 first_frame=None
